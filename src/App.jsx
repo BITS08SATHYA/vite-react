@@ -9,44 +9,70 @@ import Projects from "./components/project.jsx";
 import Contact from "./components/contact.jsx";
 import Footer from "./components/footer.jsx";
 
+
 function App() {
-    const name = "John Doe"
-    const profession = "Full Stack Developer"
-    const projects = [
-        {
-            "title" : "Project One",
-            description: "A web application built using react and nodejs",
-            link: "#"
-        },
-        {
-            "title" : "Project Two",
-            description: "A ecommerce application built using java and react and nodejs",
-            link: "#"
-        }
-    ]
+  //   const name = "John Doe"
+  //   const profession = "Full Stack Developer"
+  //   const projects = [
+  //       {
+  //           "title" : "Project One",
+  //           description: "A web application built using react and nodejs",
+  //           link: "#"
+  //       },
+  //       {
+  //           "title" : "Project Two",
+  //           description: "A ecommerce application built using java and react and nodejs",
+  //           link: "#"
+  //       }
+  //   ]
+  //
+  //
+  // return (
+  //     <div className="App">
+  //
+  //         <Header name={name} profession={profession} />
+  //
+  //         {/*{About section}*/}
+  //         <About name={name}  profession={profession} />
+  //
+  //
+  //     {/*    Projects section*/}
+  //        <Projects projects={projects} />
+  //
+  //     {/*    Contact section*/}
+  //       <Contact/>
+  //
+  //
+  //         {/*Footer section*/}
+  //       <Footer/>
+  //     </div>
+  //
+  // )
 
+    const [count, setCount] = useState(0);
+    const [step, setStep] = useState(1);
 
-  return (
-      <div className="App">
+    const incrementCount = () => {
+        setCount(count + step)
+    };
 
-          <Header name={name} profession={profession} />
+    const decrementCount = () => {
+        setCount(count - step)
+    };
 
-          {/*{About section}*/}
-          <About name={name}  profession={profession} />
+    return (
+        <div className="app-container">
+            <h1>Counter Value: {count}</h1>
+            <input type='number' value={step} onChange={(e) => setStep(parseInt(e.target.value))}/>
+            <button onClick={ incrementCount}>
+                Increment Count
+            </button>
+            <button onClick={ decrementCount}>
+                Decrement Count
+            </button>
+        </div>
+    )
 
-
-      {/*    Projects section*/}
-         <Projects projects={projects} />
-
-      {/*    Contact section*/}
-        <Contact/>
-
-
-          {/*Footer section*/}
-        <Footer/>
-      </div>
-
-  )
 }
 
 export default App
