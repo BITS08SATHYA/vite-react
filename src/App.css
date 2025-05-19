@@ -1,172 +1,217 @@
-/*.app-container{*/
-/*  font-family: Arial, Helvetica, sans-serif;*/
-/*  text-align: center;*/
+/*!*.app-container{*!*/
+/*!*  font-family: Arial, Helvetica, sans-serif;*!*/
+/*!*  text-align: center;*!*/
+/*!*  padding: 20px;*!*/
+/*!*  background-color: #f8f9fa;*!*/
+/*!*  margin: 20px;*!*/
+/*!*}*!*/
+
+/*!*h1{*!*/
+/*!*  color: #434a40;*!*/
+/*!*}*!*/
+
+/*!*input{*!*/
+/*!*  width: 50px;*!*/
+/*!*  padding: 5px;*!*/
+/*!*  margin: 10px;*!*/
+/*!*  border: 1px solid #ccc;*!*/
+/*!*  border-radius: 4px;*!*/
+/*!*}*!*/
+
+/*!*button{*!*/
+/*!*  padding: 5px 10px;*!*/
+/*!*  margin: 5px;*!*/
+/*!*  border: none;*!*/
+/*!*  border-radius: 4px;*!*/
+/*!*  background-color: blue;*!*/
+/*!*  color: white;*!*/
+/*!*  cursor: pointer;*!*/
+/*!*}*!*/
+
+/*!*button:hover{*!*/
+/*!*  background-color: darkblue;*!*/
+/*!*}*!*/
+
+/*!*Form Container*!*/
+/*.form-container{*/
+/*  max-width: 400px;*/
+/*  margin: 50px auto;*/
 /*  padding: 20px;*/
-/*  background-color: #f8f9fa;*/
-/*  margin: 20px;*/
+/*  border-radius: 8px;*/
+/*  box-shadow: 0 0 10px rgba(0,0,0,1);*/
+/*  background-color: #f9f9f9;*/
+/*  font-family: sans-serif;*/
 /*}*/
 
-/*h1{*/
-/*  color: #434a40;*/
-/*}*/
-
-/*input{*/
-/*  width: 50px;*/
-/*  padding: 5px;*/
-/*  margin: 10px;*/
-/*  border: 1px solid #ccc;*/
-/*  border-radius: 4px;*/
-/*}*/
-
-/*button{*/
-/*  padding: 5px 10px;*/
-/*  margin: 5px;*/
-/*  border: none;*/
-/*  border-radius: 4px;*/
-/*  background-color: blue;*/
-/*  color: white;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*button:hover{*/
-/*  background-color: darkblue;*/
-/*}*/
-
-/*Form Container*/
-.form-container{
-  max-width: 400px;
-  margin: 50px auto;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,1);
-  background-color: #f9f9f9;
-  font-family: sans-serif;
-}
-
-h2, h3{
-  text-align: center;
-  color: black;
-}
-
-.form-field{
-  margin-bottom: 20px;
-}
-
-label{
-  display: block;
-  font-weight: bold;
-  font-size: 14px;
-  margin-bottom: 5px;
-  color: #333;
-}
-
-input[type=text], select{
-  width: 75%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-input[type="checkbox"]{
-  margin-right: 10px;
-}
-
-input[type="radio"]{
-  margin-right: 5px;
-}
-
-.form-data{
-  margin-top: 30px;
-  padding: 10px;
-  background-color: #e9f7f9;
-  border: 1px solid #a3d2d6;
-  border-radius: 4px;
-}
-
-.form-data p{
-  font-size: 16px;
-  color: #555;
-}
-
-strong{
-  color: #333;
-}
-
-
-
-/*body{*/
-/*  margin: 0;*/
-/*  font-family: Arial, Helvetica, sans-serif;*/
-/*}*/
-
-/*a{*/
-/*  text-decoration: none;*/
-/*  color: white;*/
-/*}*/
-
-/*a:hover{*/
-/*  text-decoration: underline;*/
-/*}*/
-
-/*.header{*/
-/*  background-color: #282c34;*/
-/*  padding: 20px;*/
-/*  color: white;*/
+/*h2, h3{*/
 /*  text-align: center;*/
+/*  color: black;*/
 /*}*/
 
-/*.header nav a{*/
-/*  margin: 0 10px;*/
-/*  color: white;*/
-/*  text-decoration: underline;*/
-/*}*/
-
-/*.about-section{*/
-/*  padding: 50px;*/
-/*  text-align: center;*/
-/*  background-color: #f4f4f4;*/
-/*}*/
-
-/*.about-section h2, .project-section h2,*/
-/*.contact-section h2{*/
+/*.form-field{*/
 /*  margin-bottom: 20px;*/
 /*}*/
 
-/*.projects-section{*/
-/*  padding: 50px;*/
-/*  text-align: center;*/
+/*label{*/
+/*  display: block;*/
+/*  font-weight: bold;*/
+/*  font-size: 14px;*/
+/*  margin-bottom: 5px;*/
+/*  color: #333;*/
 /*}*/
 
-/*.projects-list .project-item{*/
-/*  margin-bottom: 30px;*/
+/*input[type=text], select{*/
+/*  width: 75%;*/
+/*  padding: 10px;*/
+/*  border: 1px solid #ccc;*/
+/*  border-radius: 4px;*/
+/*  font-size: 16px;*/
 /*}*/
 
-/*.projects-list .project-item h3{*/
-/*   margin-bottom: 30px;*/
+/*input[type="checkbox"]{*/
+/*  margin-right: 10px;*/
 /*}*/
 
-/*.projects-list .project-item a{*/
-/*  color: blue;*/
+/*input[type="radio"]{*/
+/*  margin-right: 5px;*/
 /*}*/
 
-/*.contact-section{*/
-/*  text-align: center;*/
-/*  padding: 50px;*/
-/*  background-color: #f4f4f4;*/
+/*.form-data{*/
+/*  margin-top: 30px;*/
+/*  padding: 10px;*/
+/*  background-color: #e9f7f9;*/
+/*  border: 1px solid #a3d2d6;*/
+/*  border-radius: 4px;*/
 /*}*/
 
-/*.contact-section a{*/
-/*  color: blue;*/
+/*.form-data p{*/
+/*  font-size: 16px;*/
+/*  color: #555;*/
 /*}*/
 
-/*.contact-section p{*/
-/*  text-align: center;*/
+/*strong{*/
+/*  color: #333;*/
 /*}*/
 
-/*.footer{*/
-/*  background-color: #282c34;*/
-/*  padding: 20px;*/
-/*  color: white;*/
-/*  text-align:center;*/
-/*}*/
+/* Color container*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 0;
+  min-height: 100vh;
+  color: #f0f0f0;
+}
+
+h1{
+  color: #f0f0f0;
+}
+
+.color-palette{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+
+.color-box{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.custom-color-picker{
+  margin-top: 20px;
+}
+
+.custom-color-picker input{
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/*!*body{*!*/
+/*!*  margin: 0;*!*/
+/*!*  font-family: Arial, Helvetica, sans-serif;*!*/
+/*!*}*!*/
+
+/*!*a{*!*/
+/*!*  text-decoration: none;*!*/
+/*!*  color: white;*!*/
+/*!*}*!*/
+
+/*!*a:hover{*!*/
+/*!*  text-decoration: underline;*!*/
+/*!*}*!*/
+
+/*!*.header{*!*/
+/*!*  background-color: #282c34;*!*/
+/*!*  padding: 20px;*!*/
+/*!*  color: white;*!*/
+/*!*  text-align: center;*!*/
+/*!*}*!*/
+
+/*!*.header nav a{*!*/
+/*!*  margin: 0 10px;*!*/
+/*!*  color: white;*!*/
+/*!*  text-decoration: underline;*!*/
+/*!*}*!*/
+
+/*!*.about-section{*!*/
+/*!*  padding: 50px;*!*/
+/*!*  text-align: center;*!*/
+/*!*  background-color: #f4f4f4;*!*/
+/*!*}*!*/
+
+/*!*.about-section h2, .project-section h2,*!*/
+/*!*.contact-section h2{*!*/
+/*!*  margin-bottom: 20px;*!*/
+/*!*}*!*/
+
+/*!*.projects-section{*!*/
+/*!*  padding: 50px;*!*/
+/*!*  text-align: center;*!*/
+/*!*}*!*/
+
+/*!*.projects-list .project-item{*!*/
+/*!*  margin-bottom: 30px;*!*/
+/*!*}*!*/
+
+/*!*.projects-list .project-item h3{*!*/
+/*!*   margin-bottom: 30px;*!*/
+/*!*}*!*/
+
+/*!*.projects-list .project-item a{*!*/
+/*!*  color: blue;*!*/
+/*!*}*!*/
+
+/*!*.contact-section{*!*/
+/*!*  text-align: center;*!*/
+/*!*  padding: 50px;*!*/
+/*!*  background-color: #f4f4f4;*!*/
+/*!*}*!*/
+
+/*!*.contact-section a{*!*/
+/*!*  color: blue;*!*/
+/*!*}*!*/
+
+/*!*.contact-section p{*!*/
+/*!*  text-align: center;*!*/
+/*!*}*!*/
+
+/*!*.footer{*!*/
+/*!*  background-color: #282c34;*!*/
+/*!*  padding: 20px;*!*/
+/*!*  color: white;*!*/
+/*!*  text-align:center;*!*/
+/*!*}*!*/
